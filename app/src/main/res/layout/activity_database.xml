@@ -21,14 +21,25 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 
+        <TextView
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Qual o seu Passe?"/>
+
         <RadioGroup
+            android:layout_margin="15dp"
             android:layout_centerVertical="true"
             android:layout_centerHorizontal="true"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
+            android:gravity="center"
             android:id="@+id/rdGroup"
-            android:layout_below="@+id/txtView">
+            android:layout_below="@+id/txtView"
+            >
 
             <RadioButton
                 android:id="@+id/rbtnCoroa1"
@@ -57,12 +68,12 @@
 
     </RadioGroup>
 
-        <Button
-            android:layout_margin="15dp"
-            android:id="@+id/btnSubmit"
-            android:text="Submit"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+    <Button
+        android:text="Submit"
+        android:layout_margin="15dp"
+        android:id="@+id/btnSubmit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
 
     </LinearLayout>
 
