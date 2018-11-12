@@ -90,7 +90,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
                         } else {
 
-                            Toast.makeText(MainActivity.this, "Could not regiter. Please try again.", Toast.LENGTH_LONG).show();
+                            Toast.makeText(MainActivity.this, "Could not register. Please try again.", Toast.LENGTH_LONG).show();
                             progressDialog.hide();
 
                         }
