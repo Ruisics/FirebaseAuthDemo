@@ -8,8 +8,9 @@
 
 
     <LinearLayout
-        android:layout_width="395dp"
-        android:layout_height="587dp"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginTop="8dp"
@@ -28,13 +29,14 @@
             android:id="@+id/textViewUserEmail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="TextView" />
+            android:text="User's email" />
 
         <Button
             android:id="@+id/btnLogout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Logout" />
+            android:text="Logout"
+            android:layout_marginTop="10dp"/>
 
     </LinearLayout>
 
