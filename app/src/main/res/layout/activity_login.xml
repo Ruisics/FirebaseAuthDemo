@@ -19,8 +19,9 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
-            android:text="User Registration" />
-        
+            android:text="User Login" />
+
+
         <EditText
             android:layout_margin="15dp"
             android:inputType="textEmailAddress"
@@ -39,18 +40,18 @@
 
         <Button
             android:layout_margin="15dp"
-            android:id="@+id/buttonRegister"
-            android:text="Register User"
+            android:id="@+id/btnLogin"
+            android:text="Login"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
-        
+
         <TextView
             android:textAlignment="center"
-            android:text="Already registered? Sign in here"
-            android:id="@+id/textViewSignIn"
+            android:text="Don't have an account? Register Here"
+            android:id="@+id/textViewReg"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
-        
+
     </LinearLayout>
 
 </RelativeLayout>
